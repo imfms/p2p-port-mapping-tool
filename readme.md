@@ -3,6 +3,8 @@
 
 依赖关系处理挺麻烦，所以设计上仅支持 docker 方式使用, [Docker Hub Image](https://hub.docker.com/r/imfms/p2p-port-mapping)
 
+![preview](doc/usage.gif)
+
 原理
 
 - 通过 [delthas/proxypunch](https://github.com/delthas/proxypunch) 实现 UDP hole punching 功能, 映射 UDP 协议端口
@@ -13,7 +15,7 @@
 
 ### 交互式操作
 
-直接复制粘贴到命令行中即可
+直接复制粘贴到命令行中执行即可
 
 #### Server
 
